@@ -1,8 +1,9 @@
 <p align="center"><a href="http://karbh.com" target="_blank"><img src="http://karbh.com/images/logo-10.png"></a></p>
 
+- Note:- it's Doesn't mean that, VueJs and Jwt are Inter-Connect, It's only mean jwt is diff setup and Vuejs is Diff setup on same project;
 ## About 
 
-Project is plane to Authenticate Api which is to be Used on Mobile applications.
+Project is plane to Authenticate Api which is to be Used on Mobile applications. And Integrate Vuejs For WebApplication
 Every time Client will need to send a Authenticaiton Token in header, without token no Api can Work.
 token will verify whether the user is authentic or not.
 
