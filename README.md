@@ -10,6 +10,14 @@ token will verify whether the user is authentic or not.
 - [Installing jwt-auth](https://jwt-auth.readthedocs.io/en/develop/laravel-installation/).
 - Make Custome [Middleware](https://www.redhat.com/en/topics/middleware/what-is-middleware#:~:text=Middleware%20is%20software%20that%20provides,all%20commonly%20handled%20by%20middleware.).
 
+### Install Vuejs [Required NodeJS](https://nodejs.org/en/download/)
+ 
+- composer require laravel/ui
+- php artisan ui vue
+- php artisan ui vue --auth (install vuejs with laravel auth)
+- npm install
+- npm run dev
+
 ## Resource
 - Postman Collection Link - https://www.getpostman.com/collections/aeb132a0012f95356517
 
