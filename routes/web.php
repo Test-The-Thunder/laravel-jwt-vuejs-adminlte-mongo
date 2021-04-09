@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\MongoTestController;
+use App\Http\Controllers\MysqlTestController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,9 +20,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/mysqltest', [MysqlTestController::class, 'mysqldata']);
+Route::get('/mongotest', [MongoTestController::class, 'mongodata']);
+Route::get('/home', [HomeController::class, 'index'])->name('home');
 
-Route::get('{path}',[App\Http\Controllers\HomeController::class, 'index'])->where( 'path', '([A-z\d\-\/_.]+)?' );
+Route::get('{path}',[HomeController::class, 'index'])->where( 'path', '([A-z\d\-\/_.]+)?' );
