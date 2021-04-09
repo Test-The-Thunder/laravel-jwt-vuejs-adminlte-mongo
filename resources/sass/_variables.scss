@@ -17,3 +17,109 @@ $yellow: #ffed4a;
 $green: #38c172;
 $teal: #4dc0b5;
 $cyan: #6cb2eb;
+$brown: #d5732e	;
+$white: #ffffff;
+$violet: #b404ff;
+$black: #000000;
+
+.violet{
+    color:$violet;
+}
+.black{
+    color:$black
+}
+.brown{
+    color:$brown;
+}
+.white{
+    color:$white;
+}
+.blue{
+    color:$blue;
+}
+.indigo{
+    color:$indigo;
+}
+.purple{
+    color:$purple;
+}
+.pink{
+    color:$pink;
+}
+.red{
+    color:$red;
+}
+.orange{
+    color:$orange;
+}
+.yellow{
+    color:$yellow;
+}
+.green{
+    color:$green;
+}
+.teal{
+    color:$teal;
+}
+.cyan{
+    color:$cyan;
+}
+
+.bg-info {
+    background-color: #17a2b8 !important;
+}
+
+.violetbgcolor{
+    background-color:$violet;
+}
+.blackbgcolor{
+    background-color:$black;
+}
+.brownbgcolor{
+    background-color:$brown;
+}
+.whitebgcolor{
+    background-color:$white;
+}
+.bg-white{
+    background-color:$white;
+}
+.bluebgcolor{
+    background-color:$blue;
+}
+.indigobgcolor{
+    background-color:$indigo;
+}
+.purplebgcolor{
+    background-color:$purple;
+}
+.pinkbgcolor{
+    background-color:$pink;
+}
+.redbgcolor{
+    background-color:$red;
+}
+.orangebgcolor{
+    background-color:$orange;
+}
+.yellowbgcolor{
+    background-color:$yellow;
+}
+.greenbgcolor{
+    background-color:$green;
+}
+.tealbgcolor{
+    background-color:$teal;
+}
+.cyanbgcolor{
+    background-color:$cyan;
+}
+
+.bt-column1 {
+    width: 50%;
+    float: left;
+}
+.bt-column2 {
+    float: left;
+    padding: 35px 0px 0px 20px
+}
