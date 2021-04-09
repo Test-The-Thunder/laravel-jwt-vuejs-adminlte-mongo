@@ -18,6 +18,10 @@ token will verify whether the user is authentic or not.
 - npm install
 - npm run dev
 
+### Install admin lte
+- npm install admin-lte@^3.1 --save
+- npm i vue-router vform vue-progressbar sweetalert2 vue-multiselect moment vue-excel-xlsx laravel-vue-pagination vue-loading-overlay
+
 ## Resource
 - Postman Collection Link - https://www.getpostman.com/collections/aeb132a0012f95356517
 
