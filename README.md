@@ -12,18 +12,18 @@ token will verify whether the user is authentic or not.
 
 ### Install Vuejs [Required NodeJS](https://nodejs.org/en/download/)
  
-- composer require laravel/ui
-- php artisan ui vue
-- php artisan ui vue --auth (install vuejs with laravel auth)
-- npm install
-- npm run dev
+- `composer require laravel/ui`
+- `php artisan ui vue`
+- `php artisan ui vue --auth (install vuejs with laravel auth)`
+- `npm install`
+- `npm run dev`
 
 ### Install admin lte
-- npm install admin-lte@^3.1 --save
-- npm i vue-router vform vue-progressbar sweetalert2 vue-multiselect moment vue-excel-xlsx laravel-vue-pagination vue-loading-overlay
+- `npm install admin-lte@^3.1 --save`
+- `npm i vue-router vform vue-progressbar sweetalert2 vue-multiselect moment vue-excel-xlsx laravel-vue-pagination vue-loading-overlay`
 
 ### setup Mongo
-- composer require jenssegers/mongodb
+- `composer require jenssegers/mongodb`
 
 file:- `.env`
 
