@@ -22,8 +22,33 @@ token will verify whether the user is authentic or not.
 - npm install admin-lte@^3.1 --save
 - npm i vue-router vform vue-progressbar sweetalert2 vue-multiselect moment vue-excel-xlsx laravel-vue-pagination vue-loading-overlay
 
+### setup Mongo
+- composer require jenssegers/mongodb
+
+file:- `.env`
+
+```MONGODB_CONNECTION=mongodb
+MONGODB_HOST=127.0.0.1
+MONGODB_PORT=27017
+MONGODB_DATABASE=test
+MONGODB_USERNAME=
+MONGODB_PASSWORD=
+```
+
+file:- `config/database.php`
+```
+'mongodb' => [
+            'driver' => 'mongodb',
+            'host' => env('MONGODB_HOST', '127.0.0.1'),
+            'port' => env('MONGODB_PORT', 27017),
+            'database' => env('MONGODB_DATABASE', 'homestead'),
+            'username' => env('MONGODB_USERNAME', 'homestead'),
+            'password' => env('MONGODB_PASSWORD', 'secret'),
+            'options' => [
+                'database' => env('MONGODB_AUTHENTICATION_DATABASE', 'admin'), // required with Mongo 3+
+            ],
+        ],
+```
 ## Resource
 - Postman Collection Link - https://www.getpostman.com/collections/aeb132a0012f95356517
 
-
-composer require jenssegers/mongodb
