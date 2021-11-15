@@ -1,4 +1,4 @@
-<p align="center"><a href="http://karbh.com" target="_blank"><img src="http://karbh.com/images/logo-10.png"></a></p>
+<p align="center"><a href="http://karbh.com" target="_blank"><img src="http://karbh.com/images/karbh-it-solutions.png"></a></p>
 
 - Note:- it's Doesn't mean that, VueJs and Jwt are Inter-Connect, It's only mean jwt is diff setup and Vuejs is Diff setup on same project;
 ## About 
